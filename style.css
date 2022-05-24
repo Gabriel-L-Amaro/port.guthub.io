@@ -1,0 +1,261 @@
+
+    /*
+    #F2FF65 Yellow
+    #65FFBF Green
+    #7265FF Blue/Purple
+    #FF65A5 Pink
+    Allan text
+    */
+
+    body {
+
+        font-family: 'Allan', cursive
+
+    }
+
+    .nav {
+
+        font-size: 9vh;
+        text-align: center;
+        margin-left: -1.1vh;
+        margin-top: -2vh;
+        padding: 3vh;
+        width: 99%;
+        background-color: black;
+        color: white;
+        position: fixed;
+        word-spacing: 2.5vh;
+
+    }
+
+    #name {
+
+        text-align: center;
+        display: inline;
+
+    }
+
+    #name:hover {
+
+        border-bottom: solid #F2FF65 1.25vh;
+        border-top: solid #65FFBF 1.25vh;
+        border-left: solid #7265FF 1.25vh;
+        border-right: solid #FF65A5 1.25vh;
+        border-radius: 3vh;
+        transition-duration: 150ms;
+
+    }
+
+    #gNav {
+
+        text-decoration: none;
+        color: white;
+
+    }
+
+    #gNav:hover {
+
+        border-bottom: solid #65FFBF 1.25vh;
+        border-radius: 1vh;
+        transition-duration: 150ms;
+
+    }
+
+    #yNav {
+
+        text-decoration: none;
+        color: white;
+
+    }
+
+    #yNav:hover {
+
+        border-bottom: solid #F2FF65 1.25vh;
+        border-radius: 1vh;
+        transition-duration: 150ms;
+
+    }
+
+    #bNav {
+
+        text-decoration: none;
+        color: white;
+
+    }
+
+    #bNav:hover {
+
+        border-bottom: solid #7265FF 1.25vh;
+        border-radius: 1vh;
+        transition-duration: 150ms;
+
+    }
+
+    #pNav {
+
+        text-decoration: none;
+        color: white;
+
+    }
+
+    #pNav:hover {
+
+        border-bottom: solid #FF65A5 1.25vh;
+        border-radius: 1vh;
+        transition-duration: 150ms;
+
+    }
+
+    /*.container {
+
+
+    }*/
+
+    .projects {
+
+        font-size: 7vh;
+        text-decoration: none;
+        color: black;
+        margin-left: 12vh;
+        line-height: 12vh;
+        list-style: none;
+
+    }
+
+    .projectsTitle {
+
+        font-size: 9vh;
+        display: inline;
+        margin-left: -8vh;
+        border-bottom: solid #65FFBF 1.25vh;
+        border-radius: 1vh;
+
+    }
+
+    .gBul {
+
+        display: inline-block;
+
+    }
+
+    .gBul::before {
+
+        content: "\2022";
+        color: #65FFBF;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        font-weight: bold;
+
+    }
+
+    .gBul:hover {
+
+        border-bottom: solid #65FFBF 1.25vh;
+        border-radius: 1vh;
+        transition-duration: 150ms;
+
+    }
+
+    .silly {
+
+        border: transparent;
+        border-radius: 40vh;
+        margin-left: 100vh;
+        margin-top: -170vh;
+        padding-bottom: 40vh;
+
+    }
+
+    .about {
+
+        font-size: 7vh;
+        text-decoration: none;
+        color: black;
+        margin-right: 12vh;
+        line-height: 12vh;
+        list-style: none;
+        text-align: right;
+
+    }
+
+    .aboutTitle {
+
+        font-size: 9vh;
+        display: inline;
+        margin-right: -8vh;
+        border-bottom: solid #7265FF 1.25vh;
+        border-radius: 1vh;
+
+    }
+
+    .bBulA {
+
+        display: inline-block;
+
+    }
+
+    .bBulA::after {
+
+        content: "\2022";
+        color: #7265FF;
+        display: inline-block;
+        width: 1em;
+        margin-right: -1em;
+        font-weight: bold;
+
+    }
+
+    .bBulA:hover {
+
+        border-bottom: solid #7265FF 1.25vh;
+        border-radius: 1vh;
+        transition-duration: 150ms;
+
+    }
+
+    .contacts {
+
+        font-size: 7vh;
+        text-decoration: none;
+        color: black;
+        margin-left: 12vh;
+        line-height: 12vh;
+        list-style: none;
+
+    }
+
+    .contactsTitle {
+
+        font-size: 9vh;
+        display: inline;
+        margin-left: -8vh;
+        border-bottom: solid #FF65A5 1.25vh;
+        border-radius: 1vh;
+
+    }
+
+    .pBul {
+
+        display: inline-block;
+
+    }
+
+    .pBul::before {
+
+        content: "\2022";
+        color: #FF65A5;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        font-weight: bold;
+
+    } 
+
+    .pBul:hover {
+
+        border-bottom: solid #FF65A5 1.25vh;
+        border-radius: 1vh;
+        transition-duration: 150ms;
+
+    }
